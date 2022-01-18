@@ -1,0 +1,49 @@
+body {
+background: orangered;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height: 100%;
+}
+
+.main{
+    width: 800px;
+}
+.wrapper {
+width: 700px;
+height: 300px;
+margin: 30px auto;
+color: rgba(0, 0, 0, 0.842);
+text-align: center;
+margin-left: 280px;
+margin-top: 100px;
+border-radius: 40%;
+background-color: rgba(238, 228, 228, 0.986);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds, #tens{
+  font-size:2em;
+}
+
+button{
+background: orangered;
+color: #ffffff;
+border: solid 1px white;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 18px 10px;
+width: 180px;
+margin: 10px;
+ outline: none;
+}
+button:hover{
+	background: white;
+	border: solid 1px white;
+	color: orangered;
+	}
